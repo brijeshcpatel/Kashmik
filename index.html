@@ -1,130 +1,974 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kashmik</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  </head>
 
-  <body>
-    <section class="hero">
-      <div class="inner-hero banner-slider swiper">
-        <div class="hero-wrapper swiper-wrapper">
-          <div class="hero-item swiper-slide">
-            <div class="hero-image">
-              <img src="/images/banner1.jpg" alt="banner" width="" height="" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kashmik</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-              <div class="container">
-                <div class="hero-content">
-                  <h1>
-                    Your Trusted <br />
-                    <strong>Pharma Contract Manufacturer</strong><br />
-                    for healthcare Excellance
-                  </h1>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry lorem Ipsum has been.
-                  </p>
-                  <a href="#" class="button">Get a Free Consultation</a>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"/>
+  <link rel="stylesheet" href="css/menu.css"/>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ 
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+      <a href="#" class="brand"><img src="images/logo.png" alt="" width="" height="" /> </a>
+      </div>
+    <div class="menu-container">
+        <ul class="mega-menu">
+            <li class="menu-item">
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                  About us 
+              </a>
+          </li>
+          <li class="menu-item">
+            <a href="#">
+              services
+            </a>
+        </li>
+        <li class="menu-item">
+          <a href="#">
+              products
+          </a>
+      </li>
+      <li class="menu-item">
+        <a href="#">
+            quality control
+        </a>
+    </li>
+    <li class="menu-item">
+      <a href="#">
+          testimonials
+      </a>
+  </li>
+
+  <li class="menu-item">
+    <a href="#">
+        contact us
+    </a>
+</li>
+
+<li class="menu-item">
+<a href="#" class="button">Get a Free Consultation</a>
+</li>
+
+            <!-- <li class="dropdown">
+                <div>
+                    <span>Men</span>
+                    <span class="material-symbols-outlined">
+                        chevron_right
+                    </span>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="hero-item swiper-slide">
-            <div class="hero-image">
-              <img src="/images/banner1.jpg" alt="banner" width="" height="" />
+                <ul class="menu">
+                    <li>
+                        <a href="#">Men</a>
+                    </li>
+                    <li class="sub-dropdown">
+                        <div>
+                            <span>Featured</span>
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">Featured</a>
+                            </li>
+                            <li>
+                                <a href="#">New Releases</a>
+                            </li>
+                            <li>
+                                <a href="# ">SKNRS Launch Calendar</a>
+                            </li>
+                            <li>
+                                <a href="#">Bestsellers</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-dropdown">
+                        <div>
+                            <span>Shoes</span>
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">All Shoes</a>
+                            </li>
+                            <li>
+                                <a href="#">Lifestyle</a>
+                            </li>
+                            <li>
+                                <a href="#">Jordan</a>
+                            </li>
+                            <li>
+                                <a href="#">Running</a>
+                            </li>
+                            <li>
+                                <a href="#">Football</a>
+                            </li>
+                            <li>
+                                <a href="#">Basketball</a>
+                            </li>
+                            <li>
+                                <a href="#">Training and Gym</a>
+                            </li>
+                            <li>
+                                <a href="#">Skateboarding</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-dropdown">
+                        <div>
+                            <span>Clothing</span>
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">All Clothing</a>
+                            </li>
+                            <li>
+                                <a href="#">Lyfestyle</a>
+                            </li>
+                            <li>
+                                <a href="#">Tops and T-Shirts</a>
+                            </li>
+                            <li>
+                                <a href="#">Hoodies and Sweatshirts</a>
+                            </li>
+                            <li>
+                                <a href="#">Shorts</a>
+                            </li>
+                            <li>
+                                <a href="#">Tracksuits</a>
+                            </li>
+                            <li>
+                                <a href="#">Trousers and Tights</a>
+                            </li>
+                            <li>
+                                <a href="#">Jackets</a>
+                            </li>
+                            <li>
+                                <a href="#">Kits and Jerseys</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-dropdown">
+                        <div>
+                            <span>Shop By Sport</span>
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">All Sports</a>
+                            </li>
+                            <li>
+                                <a href="#">Running</a>
+                            </li>
+                            <li>
+                                <a href="#">Football</a>
+                            </li>
+                            <li>
+                                <a href="#">Basketball</a>
+                            </li>
+                            <li>
+                                <a href="#">Training and Gym</a>
+                            </li>
+                            <li>
+                                <a href="#">Tennis</a>
+                            </li>
+                            <li>
+                                <a href="#">Golf</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sub-dropdown">
+                        <div>
+                            <span>Accessories</span>
+                            <span class="material-symbols-outlined">
+                                chevron_right
+                            </span>
+                        </div>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="#">All Accessories</a>
+                            </li>
+                            <li>
+                                <a href="#">Bags and Backpacks</a>
+                            </li>
+                            <li>
+                                <a href="#">Socks</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li> -->
+            
+        </ul>
+    </div>
+    <!-- <div class="buttons"> -->
 
-              <div class="container">
-                <div class="hero-content">
-                  <h1>
-                    Your Trusted <br />
-                    <strong>Pharma Contract Manufacturer</strong><br />
-                    for healthcare Excellance
-                  </h1>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry lorem Ipsum has been.
-                  </p>
-                  <a href="#" class="button">Get a Free Consultation</a>
-                </div>
+        <button class="menu-btn">
+            <span class="material-symbols-outlined">
+                menu
+            </span>
+        </button>
+    <!-- </div> -->
+  </div>
+</nav>
+
+
+  <section class="hero">
+    <div class="inner-hero banner-slider swiper">
+      <div class="hero-wrapper swiper-wrapper">
+        <div class="hero-item swiper-slide">
+          <div class="hero-details">
+            <img src="/images/banner1.jpg" alt="banner" width="" height="" />
+
+            <div class="container">
+              <div class="hero-content">
+                <h1>
+                  Your Trusted <br />
+                  <strong>Pharma Contract Manufacturer</strong><br />
+                  for healthcare Excellance
+                </h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been.
+                </p>
+                <a href="#" class="button">Get a Free Consultation</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper-button-prev">
-          <img src="images/left-arrow.png" width="" height="" alt="Previous" />
+        <div class="hero-item swiper-slide">
+          <div class="hero-details">
+            <img src="/images/banner1.jpg" alt="banner" width="" height="" />
+
+            <div class="container">
+              <div class="hero-content">
+                <h1>
+                  Your Trusted <br />
+                  <strong>Pharma Contract Manufacturer</strong><br />
+                  for healthcare Excellance
+                </h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been.
+                </p>
+                <a href="#" class="button">Get a Free Consultation</a>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="swiper-button-next">
-          <img src="images/right-arrow.png" width="" height="" alt="Next" />
+        <div class="hero-item swiper-slide">
+          <div class="hero-details">
+            <img src="/images/banner1.jpg" alt="banner" width="" height="" />
+
+            <div class="container">
+              <div class="hero-content">
+                <h1>
+                  Your Trusted <br />
+                  <strong>Pharma Contract Manufacturer</strong><br />
+                  for healthcare Excellance
+                </h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been.
+                </p>
+                <a href="#" class="button">Get a Free Consultation</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+      <div class="swiper-button-prev">
+        <img src="images/left-arrow.png" width="" height="" alt="Previous" />
+      </div>
+      <div class="swiper-button-next">
+        <img src="images/right-arrow.png" width="" height="" alt="Next" />
+      </div>
+    </div>
+  </section>
 
-    <section class="services">
-      <div class="inner-services">
-        <img src="images/service-bg.jpg" alt="service-bg" width="" height="">
-        <div class="container pad-80">
-          <div class="sub-title">
-            <p>our services</p>
+  <section class="about section">
+    <div class="container pad-t80">
+      <h5>who we are</h5>
+      <h2>Building Healthier Futures Together</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry lorem Ipsum has been the industrys standard dummy text ever
+        since the when an unknown printer took a galley of type and
+        scrambled it to make a type specimen book. It has survived not only
+        five centuries, but also the leap into electronic typesetting,
+        remaining essentially nchanged It was popularised in the 1960s with
+        the release of Letraset sheets containing Lorem Ipsum passages, and
+        more recently with desktop publishing software like Aldus PageMaker
+        including versions of Lorem Ipsum standard dummy text ever since the
+        when an unknown.
+      </p>
+
+      <div class="futures swiper">
+        <div class="swiper-pagination"></div>
+        <div class="futures-wrapper swiper-wrapper">
+          <div class="future-item swiper-slide">
+            <div class="future-img">
+              <img src="images/vision.jpg" alt="vision" width="" height="" />
+            </div>
+            <div class="future-desc">
+              <div class="future-icon">
+                <img src="images/vision-icon.png" alt="vision-icon" width="" height="" />
+              </div>
+
+              <div class="future-info">
+                <h3>vision</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="main-title">
-            <h2>Comprehensive Pharma Contract Manufacturing Services</h2>
+          <div class="future-item swiper-slide">
+            <div class="future-img">
+              <img src="images/vision.jpg" alt="mission" width="" height="" />
+            </div>
+            <div class="future-desc">
+              <div class="future-icon">
+                <img src="images/mission-icon.png" alt="mission-icon" width="" height="" />
+              </div>
+
+              <div class="future-info">
+                <h3>mission</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="desc">
+
+          <div class="future-item swiper-slide">
+            <div class="future-img">
+              <img src="images/vision.jpg" alt="vision" width="" height="" />
+            </div>
+            <div class="future-desc">
+              <div class="future-icon">
+                <img src="images/vision-icon.png" alt="vision-icon" width="" height="" />
+              </div>
+
+              <div class="future-info">
+                <h3>values</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="future-item swiper-slide">
+            <div class="future-img">
+              <img src="images/vision.jpg" alt="mission" width="" height="" />
+            </div>
+            <div class="future-desc">
+              <div class="future-icon">
+                <img src="images/mission-icon.png" alt="mission-icon" width="" height="" />
+              </div>
+
+              <div class="future-info">
+                <h3>expertise</h3>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen book.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section class="services section">
+    <div class="inner-services">
+      <img src="images/service-bg.jpg" alt="service-bg" width="" height="" />
+      <div class="container pad-80">
+
+        <h5>our services</h5>
+        <h2>Comprehensive Pharma Contract Manufacturing Services</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry lorem Ipsum has been the industrys standard dummy text
+          ever since the when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not
+          only five centuries.
+        </p>
+
+        <div class="services-items">
+          <div class="service-item">
+            <div class="service-icon">
+              <img src="images/formulation.png" alt="service-icon" width="" height="" />
+            </div>
+            <h4>Formulation</h4>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry lorem Ipsum has been the industrys standard dummy text
-              ever since the when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries.
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry lorem Ipsum has been the industrys
+              standard dummy text ever since the when an unknown printer
+              took a galley of type and scrambled it to make a type specimen
+              book.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="service-icon">
+              <img src="images/manufacture.png" alt="service-icon" class="manufacture" width="" height="" />
+            </div>
+            <h4>Manufacturing</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and
+              typesetting industry lorem Ipsum has been the industrys
+              standard dummy text ever since the when an unknown printer
+              took a galley of type and scrambled it to make a type specimen
+              book.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials section">
+    <div class="container pad-80">
+
+      <h5>testimonials</h5>
+
+      <div class="main-title">
+        <h2>Why Businesses Choose Kashmik Formulation</h2>
+        <a href="#" class="button">more testimonials</a>
+      </div>
+
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting
+        industry lorem Ipsum has been the industrys standard dummy text
+        unknown printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries.
+      </p>
+
+
+      <div class="inner-testimonials testimonial-slider swiper">
+        <div class="testimonials-wrapper swiper-wrapper">
+          <div class="testimonial-item swiper-slide">
+            <div class="testimonial-img">
+              <img src="images/testimonial.jpg" alt="testimonial" width="" height="" />
+            </div>
+            <div class="testimonial-info">
+              <div class="testimonial">
+                <h3>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen survived not.
+                </h3>
+              </div>
+              <div class="testimonial-member">
+                <h3>Mr. John Due</h3>
+                <p>kenya</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item swiper-slide">
+            <div class="testimonial-img">
+              <img src="images/testimonial.jpg" alt="testimonial" width="" height="" />
+            </div>
+            <div class="testimonial-info">
+              <div class="testimonial">
+                <h3>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen survived not.
+                </h3>
+              </div>
+              <div class="testimonial-member">
+                <h3>Mr. John Due</h3>
+                <p>kenya</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item swiper-slide">
+            <div class="testimonial-img">
+              <img src="images/testimonial.jpg" alt="testimonial" width="" height="" />
+            </div>
+            <div class="testimonial-info">
+              <div class="testimonial">
+                <h3>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry lorem Ipsum has been the industrys
+                  standard dummy text ever since the when an unknown printer
+                  took a galley of type and scrambled it to make a type
+                  specimen survived not.
+                </h3>
+              </div>
+              <div class="testimonial-member">
+                <h3>Mr. John Due</h3>
+                <p>kenya</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-arrows">
+          <div class="left-arrow swiper-button-prev">
+            <img src="images/left.png" alt="prev" width="" height="" />
+          </div>
+          <div class="right-arrow swiper-button-next">
+            <img src="images/left.png" alt="next" width="" height="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="partner">
+    <img src="images/partner-bg.jpg" alt="partner-bg" width="" height="" />
+
+    <div class="container pad-80">
+      <div class="partner-heading">
+        <div class="partner-icon">
+          <img src="images/shake-hand.png" alt="partner-icon" width="" height="" />
+        </div>
+        <div class="main-title">
+          <h2>Partner with Kashmik Formulation</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
+            industrys standard dummy.</p>
+        </div>
+      </div>
+
+      <div class="partner-request">
+        <div class="request-icon">
+          <img src="images/mail-icon.png" alt="mail-icon" width="" height="">
+        </div>
+        <a href="#" class="request-button button">
+          request a consultation
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="why-choose section">
+    <div class="container pad-80">
+
+      <h5>Why Choose Us</h5>
+      <h2>Why Kashmik Formulation Is Your Ideal Pharma Contract Manufacturer</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+        standard dummy text ever since the when an unknown printer
+        took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+      </p>
+
+      <div class="qualities">
+        <div class="inner-qualities">
+
+          <div class="quality-item">
+            <div class="quality-icon">
+              <img src="images/expertise.png" alt="quality-icon" width="" height="">
+            </div>
+            <h4>expertise</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and esetting industry lorem Ipsum has been the industrys
+              standard.
             </p>
           </div>
 
-          <div class="services-items">
-            <div class="service-item">
-                <div class="service-icon">
-                    <img src="images/formulation.png" alt="service-icon" width="" height="">
-                    </div>
-                    <div class="service-title">
-                        <h4>Formulation</h4>
-                        </div>
-                        <div class="service-desc">
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
-                                it to make a type specimen book.</p>
-                        </div>
-                </div>
-                <div class="service-item">
-                    <div class="service-icon ">
-                        <img src="images/manufacture.png" alt="service-icon" class="manufacture" width="" height="">
-                        </div>
-                        <div class="service-title">
-                            <h4>Manufacturing</h4>
-                            </div>
-                            <div class="service-desc">
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type and scrambled
-                                    it to make a type specimen book.</p>
-                            </div>
-                    </div>
+          <div class="quality-item">
+            <div class="quality-icon">
+              <img src="images/technology.png" alt="quality-icon" width="" height="">
+            </div>
+            <h4>technology</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and esetting industry lorem Ipsum has been the industrys
+              standard.
+            </p>
+          </div>
+
+          <div class="quality-item">
+            <div class="quality-icon">
+              <img src="images/certificate.png" alt="quality-icon" width="" height="">
+            </div>
+            <h4>certifications</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and esetting industry lorem Ipsum has been the industrys
+              standard.
+            </p>
+          </div>
+
+          <div class="quality-item">
+            <div class="quality-icon">
+              <img src="images/reliability.png" alt="quality-icon" width="" height="">
+            </div>
+            <h4>reliability</h4>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and esetting industry lorem Ipsum has been the industrys
+              standard.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+  </section>
 
-    <script>
-      var swiper = new Swiper(".banner-slider", {
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
-  </body>
+  <section class="cerifications section">
+    <div class="container pad-80">
+      <div class="certifications-heading">
+        <h5>Certifications & Awards</h5>
+        <h2>Our Credentials:<br />
+          Quality You Can Trust</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+          standard dummy text ever since the when an unknown printer.
+        </p>
+      </div>
+      <div class="certifications-icons">
+        <div class="certi1">
+        <img src="images/gmp-certificate.png" alt="certifications-icons" width="" height="">
+      </div>
+        <div class="certi2">
+        <img src="images/iso-certificate.png" alt="certifications-icons" width="" height="">
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq section">
+    <div class="container pad-80">
+      <h5>faq</h5>
+      <h2>'Got Questions? We’ve Got Answers.'</h2>
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+        standard dummy text ever since the when an unknown printer
+        took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+      </p>
+
+      <div class="faqs">
+        <div class="faq-item">
+          <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting has?</button>
+          <div class="faq-answer" style="display: none;">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
+              industrys
+              standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make
+              a
+              ty type and scrambled it to make a type specimen book. It has survived not only five centuries Lorem Ipsum
+              is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard
+              dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a ty type
+              and scrambled it to make a type specimen book. It has survived not only five centuries.
+            </p>
+
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting has?</button>
+          <div class="faq-answer" style="display: none;">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
+              industrys
+              standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make
+              a
+              ty type and scrambled it to make a type specimen book. It has survived not only five centuries Lorem Ipsum
+              is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard
+              dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a ty type
+              and scrambled it to make a type specimen book. It has survived not only five centuries.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting has?</button>
+          <div class="faq-answer" style="display: none;">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
+              industrys
+              standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make
+              a
+              ty type and scrambled it to make a type specimen book. It has survived not only five centuries Lorem Ipsum
+              is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard
+              dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a ty type
+              and scrambled it to make a type specimen book. It has survived not only five centuries.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-btn">Lorem Ipsum is simply dummy text of the printing and typesetting has?</button>
+          <div class="faq-answer" style="display: none;">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the
+              industrys
+              standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make
+              a
+              ty type and scrambled it to make a type specimen book. It has survived not only five centuries Lorem Ipsum
+              is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys standard
+              dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a ty type
+              and scrambled it to make a type specimen book. It has survived not only five centuries.
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blogs section">
+    <div class="container pad-80">
+
+      <h5>Blog/Insights</h5>
+
+      <div class="main-title">
+        <h2>Latest Trends in Pharma Manufacturing and Innovation</h2>
+        <a href="#" class="button">more blogs</a>
+      </div>
+
+      <p>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry lorem Ipsum has been the industrys
+        standard dummy text took a galley of type and scrambled it to make a type specimen book. It has survived not
+        only five centuries.
+      </p>
+
+      <div class="blog-list">
+
+        <div class="blog-item">
+          <a href="#">
+            <img src="images/blog1.jpg" alt="" width="" height="" />
+            <div class="blog-info">
+              <div class="blog-heading">
+                <h5>Pharma Manufacture</h5>
+                <h4>Lorem Ipsum is simply dummy text of the printing
+                  and typesetting has?</h4>
+              </div>
+              <div class="blog-present">
+                <p>Admim | Jan 22, 2025</p>
+                <p class="link">Read More</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="blog-item">
+          <a href="#">
+            <img src="images/blog2.jpg" alt="" width="" height="" />
+            <div class="blog-info">
+              <div class="blog-heading">
+                <h5>Pharma Manufacture</h5>
+                <h4>Lorem Ipsum is simply dummy text of the printing
+                  and typesetting has?</h4>
+              </div>
+              <div class="blog-present">
+                <p>Admim | Jan 22, 2025</p>
+                <p class="link">Read More</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="video section">
+    <div class="inner-video">
+      <video id="bplayer" poster="images/video-banner.jpg" muted>
+        <source src="images/videoplayback.mp4" type="video/mp4">
+      </video>
+      <div class="video-heading" id="video-heading">
+        <h5>Certifications & Awards</h5>
+        <h2>See Us in Action:<br />
+          Pharma Excellence Delivered.</h2>
+          <div class="">
+        <img src="images/play-icon.png" alt="play-icon" class="play-icon" id="play-icon" width="" height="" />
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-us pad-80">
+    <div class="container">
+      <div class="inner-contact">
+        <div class="img-part">
+        <img src="images/contact-us.jpg" alt="" width="" height="" />
+      </div>
+        <div class="contact-now">
+          <h2>Contact us now</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typeset
+            ting industry lorem Ipsum has been the industrys.</p>
+          <div class="contact-form">
+            <form action="#" method="post">
+
+              <div class="input-wrapper">
+                <img src="images/user-icon.png" alt="user-icon" width="" height="">
+                <input type="text" id="name" name="name" placeholder="Name" required>
+              </div>
+
+              <div class="input-wrapper">
+                <img src="images/phone-icon.png" alt="phone-icon" width="" height="">
+                <input type="tel" id="phone" name="phone" placeholder="Phone">
+              </div>
+
+              <div class="input-wrapper">
+                <img src="images/email-icon.png" alt="email-icon" width="" height="">
+                <input type="email" id="email" name="email" placeholder="Email" required>
+              </div>
+
+              <div class="input-wrapper message-field">
+                <img src="images/message-icon.png" alt="message-icon" width="" height="">
+                <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+              </div>
+
+              <button type="submit" class="button">GET A FREE CONSULTATION</button>
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact-details">
+    <div class="container">
+      <div class="contact-info">
+
+        <div class="contact-item">
+          <img src="images/location-icon.png" alt="location-icon" width="" height="" />
+          <h4>Our Location: </h4>
+          <p>403, Shilp Aperia, Nr. Landmark Hotel,
+            Iscon-Ambli Road, Ahmedabad.</p>
+        </div>
+
+        <div class="contact-item">
+          <img src="images/mail.png" alt="mail-icon" width="" height="" />
+          <h4>Email: </h4>
+          <p>info@kashmik.com</p>
+        </div>
+
+        <div class="contact-item">
+          <img src="images/call-icon.png" alt="phone-icon" width="" height="" />
+          <h4>Call us: </h4>
+          <p>+91 91737 41777 | +91 27174 85777</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-inner">
+    <div class="container pad-80">      
+        <div class="footer-items">
+          <div class="footer-item">
+            <a href="#">
+              <img src="images/footer-logo.png" alt="logo" width="" height="" />
+            </a>
+            <p>Lorem Ipsum is simply dummy text
+              of the printing and typesetting industry lorem Ipsum has been the industrys standard dummy text ever since
+              the when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+          </div>
+
+
+          <div class="footer-item">
+            <h3>Quick Links
+            </h3>
+            <ul>
+              <li><a href="#">Home</a> </li>
+              <li><a href="#">About Us</a> </li>
+              <li><a href="#">services</a> </li>
+              <li><a href="#">Products</a> </li>
+              <li><a href="#">Quality Control</a> </li>
+              <li><a href="#">Testimonials </a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h3>products
+            </h3>
+            <ul>
+              <li><a href="#">product link 1</a> </li>
+              <li><a href="#">product link 2</a> </li>
+              <li><a href="#">product link 3</a> </li>
+              <li><a href="#">product link 4</a> </li>
+              <li><a href="#">product link 5</a> </li>
+              <li><a href="#">product link 6 </a></li>
+              <li><a href="#">product link 7</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h3>our location
+            </h3>
+            <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.876910399176!2d72.49521281137778!3d23.028291279082953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ea33a3ee538af%3A0xec48448e092fffc0!2sKashmik%20Formulation%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1739893089622!5m2!1sen!2sin"
+                width="100%" height="275" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="copyright">
+        <div class="container">
+          <p>© Copyright - 2025  - All Rights Reserved.</p>
+          <div class="social-icons">
+              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>    
+  </footer>
+
+  <script src="js/custom.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+
 </html>
