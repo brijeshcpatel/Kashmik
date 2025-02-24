@@ -29,10 +29,10 @@
         margin-top:1rem;
     }
 
-    .section h2 {
+    /* .section h2 {
         margin-top:1rem;
         margin-bottom: 1.25rem;
-    }
+    }*/
 
     .future-desc {
         /* padding-top:2.25rem;
@@ -47,7 +47,7 @@
     }
 
     .future-info p {
-        margin-top:1.25rem;
+        margin-top:1rem;
     }
 
     .pad-80 {
@@ -77,9 +77,12 @@
         border-radius: 1rem;
     }
 
-
-    .service-item h4, .service-item p, .quality-item p {
+	/* .service-item h4 {
         margin-top:1.5rem;
+    }*/
+
+    .service-item p, .quality-item p {
+        /* margin-top:1.5rem; */
     }
 
     .testimonial-info {
@@ -112,6 +115,7 @@
 
     .quality-item {
         padding:1.5rem;
+		height:100%;
     }
 
     .quality-icon img {
@@ -119,7 +123,7 @@
     }
 
     .quality-item h4 {
-        margin-top: 3rem;
+        margin-top: 2rem;
     }
 
     .faq-btn {
@@ -238,7 +242,7 @@
     }
 
     .hero-details > img {
-        min-height:45vh;
+        min-height:60vh;
     }
 
     .banner-slider .swiper-button-next, .banner-slider .swiper-button-prev {
@@ -278,7 +282,6 @@
     }
 
     .inner-qualities {
-        column-gap: 1.5rem;
         row-gap:1rem;
         flex-wrap: wrap;
     }  
@@ -317,7 +320,7 @@
         border-bottom-left-radius: 0;
         border-top-right-radius: 12px;        
     }
-    .contact-info .contact-item:nth-child(3) {
+    .contact-info .contact-item:last-child {
         border-bottom-right-radius: 12px;
         border-bottom-left-radius: 12px;
         border-top-right-radius: 0; 
@@ -374,6 +377,10 @@
         padding-top: 1.5rem;
         padding-bottom: 1.5rem;
     }
+	
+	.testimonial-img img {
+		height: auto;
+	}
 
 }
 
@@ -386,4 +393,25 @@
         right: 0px;
     }
 
+}
+
+
+@media screen and (min-width: 1024px) and (max-width:1239px) {
+	.mega-menu .menu-item a, .mega-menu .menu-item .button {
+		font-size:0.89rem;	
+	}
+	.mega-menu .menu-item {
+		margin-left:0.5rem;
+		margin-right:0.5rem;
+	}
+	.menu-item .button {
+		padding-left:0.5rem;
+		padding-right:0.5rem;		
+	}
+}
+
+@media screen and (min-width: 992px) {
+.future-desc {
+	min-height:500px;
+}
 }

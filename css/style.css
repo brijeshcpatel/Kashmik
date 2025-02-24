@@ -1,31 +1,3 @@
-@font-face {
-    font-family: Roboto;
-    src: url(../fonts/Roboto-Regular.ttf);
-}
-
-@font-face {
-    font-family: Roboto-Regular;
-    font-weight: 400;
-    src: url(../fonts/Roboto-Regular.ttf);
-}
-
-@font-face {
-    font-family: Roboto-Medium;
-    font-weight: 500;
-    src: url(../fonts/Roboto-Medium.ttf);
-}
-
-@font-face {
-    font-family: Roboto-Bold;
-    font-weight: 700;
-    src: url(../fonts/Roboto-Bold.ttf);
-}
-
-@font-face {
-    font-family: Roboto-ExtraBold;
-    font-weight: 800;
-    src: url(../fonts/Roboto-ExtraBold.ttf);
-}
 
 body {
     font-family: "Roboto", serif;
@@ -188,7 +160,7 @@ p {
     justify-content: flex-end;
     border-radius: 20px;
     overflow: hidden;
-    height: 500px;
+    /* height: 500px; */
     background-color: black;
 }
 
@@ -200,6 +172,11 @@ p {
 
 .future-img img {
     height: 100%;
+    object-fit: cover;
+}
+
+.future-icon {
+    margin-bottom: 1rem;
 }
 
 .future-desc {
@@ -222,10 +199,10 @@ p {
 }
 
 .future-info p {
-    margin-top: 1.875rem;
+    margin-top: 1.375rem;
 }
 
-.future-txt p {
+.future-txt p, .quality-item p {
     line-height: 1.7;
 }
 
@@ -268,8 +245,9 @@ p {
 /** services **/
 
 .section h2 {
-    margin-top: 1.25rem;
-    margin-bottom: 1.875rem;
+    /* margin-top: 1.25rem; */
+    /*margin-bottom: 1.875rem;*/
+	 margin-bottom: 1rem;
 }
 
 .about p,
@@ -308,16 +286,18 @@ p {
     padding: 2.5rem;
 }
 
+.service-item h4{
+	  margin-top: 1rem;
+}
 
-.service-item h4,
 .service-item p {
-    margin-top: 1.875rem;
+    /* margin-top: 1.875rem;*/
 }
 
 .service-icon {
+	  background-color: #ea5e20;
     border-radius: 20px;
     filter: drop-shadow(0px 5px 7.5px rgba(234, 94, 32, 0.47));
-    background-color: #ea5e20;
     padding: 1.125rem;
     max-width: 85px;
     max-height: 85px;
@@ -326,7 +306,7 @@ p {
 }
 
 .service-icon img {
-    max-width: 24px;
+    max-width: 20px;
     margin: 0 auto;
 }
 
@@ -606,11 +586,11 @@ p {
 }
 
 .quality-item h4 {
-    margin-top: 4.375rem;
+    margin-top: 3rem;
 }
 
 .quality-item p {
-    margin-top: 1.875rem;
+    /* margin-top: 1rem; */
 }
 
 .quality-icon img {
@@ -659,7 +639,7 @@ p {
 }
 
 .faq-item {
-    margin-bottom: 1.875rem;
+    margin-bottom: 1.375rem;
     /* padding-bottom: 1.875rem; */
 
     border-radius: 12px;
@@ -671,8 +651,8 @@ p {
 
 .faq-btn {
     cursor: pointer;
-    padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
     padding-left: 1.625rem;
     padding-right: 1.625rem;
     width: 100%;
@@ -705,7 +685,7 @@ p {
 .faq-btn:after {
     content: "";
     float: right;
-    margin-left: auto;
+    margin-left: 14px;
     width: 12px;
     min-width:12px;
     height: 8px;
@@ -941,7 +921,7 @@ p {
 .contact-now p {
     color: #363636;
     text-align: center;
-    margin-top: 1.125rem;
+    margin-top: 1rem;
     line-height: 1.7;
 }
 
@@ -1018,12 +998,12 @@ p {
 
 .contact-item h4 {
     text-transform: capitalize;
-    margin-top: 1.25rem;
+    /* margin-top: 1.25rem;*/
 }
 
 .contact-item p {
     line-height: 1.7;
-    margin-top: 0.75rem;
+    /* margin-top: 0.75rem; */
     max-width: 275px;
 }
 
@@ -1051,7 +1031,7 @@ p {
     border-radius: 0;
 }
 
-.contact-info .contact-item:nth-child(3) {
+.contact-info .contact-item:last-child {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
 }
@@ -1108,7 +1088,7 @@ section.contact-details {
 }
 
 .footer-item h3 {
-    margin-bottom:3.5rem;
+    margin-bottom:3rem;
 }
 
 .footer-item li {
@@ -1199,4 +1179,25 @@ section.contact-details {
 
 .menu-item a:hover, .footer-item li a:hover {
 color:#ea5e20;
+}
+
+
+.contact-item p a:hover {
+text-decoration:underline;	
+}
+
+h2 {
+	line-height:1.25;
+}
+
+h3 {
+	line-height:2;
+}
+
+h4 {
+	line-height:2.5;
+}
+
+h5 {
+	line-height:3.57;
 }
