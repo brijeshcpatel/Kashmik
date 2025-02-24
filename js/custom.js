@@ -66,6 +66,10 @@ var swiper = new Swiper(".banner-slider", {
     }
   });
 
+  $(".faq-btn").first().addClass("active");
+  $(".faq-btn").first().next().slideDown(0);
+  $(".faq-btn").first().parent().addClass("open");
+
 document.addEventListener("DOMContentLoaded", function () {
   let player = document.getElementById("bplayer");
   let playButton = document.getElementById("play-icon");

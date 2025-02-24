@@ -228,7 +228,7 @@ p {
     border-radius: unset;
     margin-right: 2.5rem !important;
     margin-bottom: 1rem !important;
-
+    opacity: 1;
 }
 
 .futures .swiper-pagination .swiper-pagination-bullet-active {
@@ -363,6 +363,7 @@ p {
 
 .testimonial-img img {
     height: 100%;
+    object-fit: cover;
 }
 
 .testimonial {
@@ -682,7 +683,7 @@ p {
 }
 
 
-.faq-btn:after {
+/* .faq-btn:after {
     content: "";
     float: right;
     margin-left: 14px;
@@ -694,6 +695,15 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: middle;
+} */
+
+.faq-btn span {
+    margin-left: auto;
+    padding-left: 8px;
+}
+
+.faq-btn span img {
+    min-width: 12px;
 }
 
 .faq-answer {
@@ -842,6 +852,7 @@ p {
 
 .video video {
     width: 100%;
+    object-fit: cover;
 }
 
 .video-heading {
@@ -854,6 +865,8 @@ p {
     justify-content: center;
     align-items: center;
     width:100%;
+    padding-left: 20px;
+    padding-right:20px;
 }
 
 .play-icon {

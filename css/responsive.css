@@ -242,7 +242,8 @@
     }
 
     .hero-details > img {
-        min-height:60vh;
+        min-height: 50vh;
+        object-fit: cover;
     }
 
     .banner-slider .swiper-button-next, .banner-slider .swiper-button-prev {
@@ -381,6 +382,15 @@
 	.testimonial-img img {
 		height: auto;
 	}
+
+    .testimonials-wrapper .testimonial-item {
+        flex-direction: column;
+    }
+
+    .testimonial-img, .testimonial-info {
+        width: 100%;
+    }
+
 
 }
 
